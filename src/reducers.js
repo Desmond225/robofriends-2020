@@ -6,6 +6,7 @@ const initialState = {
 
 //get input of state and action, and act upon the state
 export const searchRobots = (state=initialState, action={}) => {
+    console.log(action.type);
     switch(action.type) {
         case CHANGE_SEARCH_FIELD:
             return Object.assign({}, state, {searchField: action.payload}) //Reducer should be a pure function - take input and then return a new state
