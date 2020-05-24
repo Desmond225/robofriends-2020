@@ -25,6 +25,7 @@ describe('requestRobots', () => {
         robots: [],
         isPending: false
     };
+    
 
     it('should return the initial state', () => {
         expect(reducers.requestRobots(undefined, {})).toEqual(initialStateRobots)
