@@ -7,7 +7,6 @@ it('expect to render CardList component', () => {
         {
             id: 1,
             name: 'Jon Snow',
-            username: 'JonJon',
             email: 'Jon@codestackers.io'
         }
     ]

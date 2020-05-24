@@ -1,0 +1,28 @@
+// import configureMockStore from 'redux-mock-store';
+// import thunk from 'redux-thunk';
+// import * as actions from './actions';
+// import * as types from './actionTypes';
+// import fetchMock from 'fetch-mock';
+// import expect from 'expect';
+
+// const middlewares = [thunk]
+// const mockStore = configureMockStore(middlewares)
+
+// it('creates FETCH_ROBOTS_SUCCESS when fetching robots has been done', () => {
+//     fetchMock.getOnce('/robots', {
+//         body: { robots: [] },
+//         headers: { 'content-type': 'application/json' }
+//     })
+
+//     const expectedActions = [
+//         { type: types.FETCH_ROBOTS_PENDING },
+//         { type: types.FETCH_ROBOTS_SUCCESS, body: { robots: []} },
+//         { type: types.FETCH_ROBOTS_FAILED, body: {error: error}}
+//     ]
+
+//     const store = mockStore({ robots: [] })
+
+//     return store.dispatch(actions.fetchTodos()).then(() => {
+//         expect(store.getActions()).toEqual(expectedActions)
+//     })
+// })
